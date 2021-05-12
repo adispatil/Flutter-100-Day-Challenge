@@ -1,4 +1,4 @@
-# flutter_challange
+# Flutter 100 Days Challenge
 
 A new Flutter application.
 
