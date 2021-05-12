@@ -20,7 +20,7 @@ class _BottomNavigationWalletScreenState
     String mDropDownLabel = 'USD';
 
     return Scaffold(
-      backgroundColor: Color(0xFFF1F4F7),
+      backgroundColor: MyColor.kBackgroundParent,
       body: SafeArea(
         child: Column(
           children: <Widget>[
@@ -174,6 +174,7 @@ class _BottomNavigationWalletScreenState
                         ),
                       ),
 
+                      /// Down arrow
                       Container(
                         alignment: Alignment.center,
                         margin:

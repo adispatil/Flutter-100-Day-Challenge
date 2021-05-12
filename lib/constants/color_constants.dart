@@ -4,3 +4,4 @@ import 'package:flutter/material.dart';
 const Color kTextColorPrimary = Color(0xFF4A5766);
 const Color kTextColorSecondary = Color(0xFFB5BEC9);
 const Color kBackgroundOrange = Color(0xFF17AF64);
+const Color kBackgroundParent = Color(0xFFF1F4F7);
