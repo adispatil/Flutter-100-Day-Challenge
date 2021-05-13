@@ -86,7 +86,9 @@ class _BottomNavigationWalletScreenState
                   shrinkWrap: true,
                   itemCount: 3,
                   itemBuilder: (context, position) {
-                    return RowListItemWidget(position: position,);
+                    return RowListItemWidget(
+                      position: position,
+                    );
                   },
                 ),
               ),
@@ -103,7 +105,7 @@ class _BottomNavigationWalletScreenState
       margin: EdgeInsets.only(left: 10.0, right: 10.0, top: 15.0),
       child: Card(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20.0),
+          borderRadius: BorderRadius.circular(15.0),
         ),
         color: Colors.white,
         elevation: 2.0,
@@ -124,7 +126,8 @@ class _BottomNavigationWalletScreenState
                       size: 20,
                     ),
                     decoration: BoxDecoration(
-                        shape: BoxShape.circle, color: Color(0xFF4C5867)),
+                        shape: BoxShape.circle,
+                        color: MyColor.kWalletIconBackgroundColor),
                   ),
                   SizedBox(
                     width: 20.0,

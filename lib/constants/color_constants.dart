@@ -5,3 +5,7 @@ const Color kTextColorPrimary = Color(0xFF4A5766);
 const Color kTextColorSecondary = Color(0xFFB5BEC9);
 const Color kBackgroundOrange = Color(0xFF17AF64);
 const Color kBackgroundParent = Color(0xFFF1F4F7);
+const Color kBitcoinBackgroundColor = Color(0xFFFF9A1F);
+const Color kEthBackgroundColor = Color(0xFF0000ED);
+const Color kXprBackgroundColor = Color(0xFF5E89EC);
+const Color kWalletIconBackgroundColor = Color(0xFF4C5867);

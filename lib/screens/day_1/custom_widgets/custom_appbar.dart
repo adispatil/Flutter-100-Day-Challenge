@@ -21,7 +21,7 @@ class CustomAppBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Icon(
-                FontAwesomeIcons.bars,
+                leftIcon,
                 color: MyColor.kTextColorSecondary,
               ),
               Text(
@@ -32,7 +32,7 @@ class CustomAppBar extends StatelessWidget {
                     color: MyColor.kTextColorPrimary),
               ),
               Icon(
-                FontAwesomeIcons.wallet,
+                rightIcon,
                 color: MyColor.kTextColorSecondary,
               ),
             ],
