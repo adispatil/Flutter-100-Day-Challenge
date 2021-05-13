@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_challange/screens/day_1/bottom_navigation_bar.dart';
+import 'package:flutter_challange/screens/day_1/custom_widgets/bottom_navigation_bar.dart';
 
 class Day1Challenge extends StatefulWidget {
   static const String id = 'day_1_challenge';
