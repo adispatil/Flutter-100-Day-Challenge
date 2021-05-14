@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challange/constants/app_constants.dart';
-import 'package:flutter_challange/screens/day_1/day_1_challange_screen1.dart';
+import 'package:flutter_challange/screens/day_1/day_1_screen1.dart';
 import 'package:flutter_challange/widgets/reusable_list_card.dart';
 
 class HomeScreen extends StatefulWidget {

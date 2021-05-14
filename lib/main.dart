@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challange/screens/day_1/day_1_challange_screen1.dart';
+import 'package:flutter_challange/screens/day_1/day_1_screen1.dart';
 import 'package:flutter_challange/screens/day_1/day_1_screen2.dart';
 import 'package:flutter_challange/screens/home_screen.dart';
 import 'package:flutter/services.dart';

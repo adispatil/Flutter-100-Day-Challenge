@@ -1,7 +1,8 @@
-import 'package:draw_graph/models/feature.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_challange/constants/app_constants.dart';
 import 'package:flutter_challange/constants/color_constants.dart' as MyColor;
+import 'package:flutter_challange/screens/day_1/custom_widgets/graph_widget.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'custom_widgets/custom_appbar.dart';
@@ -164,7 +165,6 @@ class _Day1Screen2State extends State<Day1Screen2> {
 
   Container getMarketMovementCard() {
     return Container(
-        height: 200,
         margin: EdgeInsets.only(left: 10.0, right: 10.0, top: 15.0),
         child: Card(
           shape: RoundedRectangleBorder(
@@ -225,7 +225,10 @@ class _Day1Screen2State extends State<Day1Screen2> {
                     ),
                   ),
                 ],
+
               ),
+
+              Graph(),
             ],
           ),
         ));

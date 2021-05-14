@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challange/screens/day_1/bottom_navigation_wallet_screen.dart';
+import 'package:flutter_challange/screens/day_1/custom_widgets/bottom_navigation_wallet_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class BottomNavigation extends StatefulWidget {

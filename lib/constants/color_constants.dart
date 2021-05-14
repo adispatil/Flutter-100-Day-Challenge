@@ -14,3 +14,7 @@ const Color kGradientStartColor = Color(0xFF3366FF);
 const Color kGradientEndColor = Color(0xFF00CCFF);
 const Color kGradientPinkStartColor = Color(0xFFFC2E9C);
 const Color kGradientPinkEndColor = Color(0xFFFE5D82);
+const BTCDARK = Color(0xFFFF9C21);
+const BOXSHADOWCOLOR = Color(0xFFE6E9EE);
+const DROP = Color(0xFFEE225D);
+const RISE = Color(0xFF18AF64);
