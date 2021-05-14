@@ -1,17 +1,12 @@
 # Flutter 100 Days UI Challenge
 
-A new Flutter application.
+This is 100 Days UI challenge in flutter.
 
-## Getting Started
+## Day 1 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/34621423/118239107-fb69e200-b4b6-11eb-9196-8318aa86b70d.png" width="200" height="433" hspace="20"/> 
+  <img src="https://user-images.githubusercontent.com/34621423/118239128-01f85980-b4b7-11eb-868e-077e4d08386e.png" width="200" height="433" hspace="20"/>
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # Flutter-100-Day-Challenge
