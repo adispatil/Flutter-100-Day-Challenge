@@ -68,7 +68,7 @@ class _GraphState extends State<Graph> {
                   ),
                   Text(
                     "1 BTC = \$${TREND.conversionRate}",
-                    style: TextStyle(fontSize: 16, color: MyColor.kTextColorSecondary),
+                    style: TextStyle(fontSize: 16, color: MyColor.kTextColorPrimary),
                   )
                 ],
               ),
