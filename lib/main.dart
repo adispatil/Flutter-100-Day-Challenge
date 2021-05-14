@@ -10,6 +10,11 @@ void main() {
     DeviceOrientation.portraitDown
   ]);
 
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent, // transparent status bar
+  ));
+
   runApp(MyApp());
 }
 

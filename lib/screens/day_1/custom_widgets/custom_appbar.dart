@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_challange/constants/color_constants.dart' as MyColor;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -20,12 +21,15 @@ class CustomAppBar extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(
-                leftIcon,
+              IconButton(
+                icon: Icon(leftIcon),
+                onPressed: () {
+                  Navigator.canPop(context) ? Navigator.pop(context) : SystemNavigator.pop();
+                },
                 color: MyColor.kTextColorSecondary,
               ),
               Text(
-                'Wallets',
+                screenLabel,
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,

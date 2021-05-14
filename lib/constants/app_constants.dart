@@ -1,4 +1,11 @@
 
+const List<String> kDay1ChipList = <String>[
+  'Day',
+  'Week',
+  'Month',
+  'Year'
+];
+
 const kDay1Challenge = 'Day \n1 \nChallenge';
 const kDay2Challenge = 'Day \n2 \nChallenge';
 const kDay3Challenge = 'Day \n3 \nChallenge';
