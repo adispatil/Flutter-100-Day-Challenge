@@ -16,14 +16,6 @@ class Day1Screen2 extends StatefulWidget {
 class _Day1Screen2State extends State<Day1Screen2> {
   int _selectedIndex = 0;
 
-  final List<Feature> features = [
-    Feature(
-      title: "Flutter",
-      color: Colors.blue,
-      data: [0.3, 0.6, 0.8, 0.9, 1, 1.2],
-    ),
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
