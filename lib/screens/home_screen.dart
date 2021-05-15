@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challange/constants/app_constants.dart';
 import 'package:flutter_challange/screens/day_1/day_1_screen1.dart';
+import 'package:flutter_challange/screens/day_2/screen_1.dart';
 import 'package:flutter_challange/widgets/reusable_list_card.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -31,11 +32,25 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               ReusableListCard(
                 mCardLabel: kDay2Challenge,
-                mScreenName: Day1ChallengeScreen1.id,
-                mWorkingDate: '13-05-21',
+                mScreenName: Day2HomeScreen.id,
+                mWorkingDate: '14-05-21',
               ),
             ],
-          )
+          ),
+          Row(
+            children: <Widget>[
+              ReusableListCard(
+                mCardLabel: kDay3Challenge,
+                mScreenName: Day1ChallengeScreen1.id,
+                mWorkingDate: '12-05-21',
+              ),
+              ReusableListCard(
+                mCardLabel: kDay4Challenge,
+                mScreenName: Day2HomeScreen.id,
+                mWorkingDate: '14-05-21',
+              ),
+            ],
+          ),
         ],
       ),
     );

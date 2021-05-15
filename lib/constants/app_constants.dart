@@ -1,4 +1,3 @@
-
 const List<String> kDay1ChipList = <String>[
   'Day',
   'Week',
@@ -16,3 +15,6 @@ const kDay7Challenge = 'Day \n7 \nChallenge';
 const kDay8Challenge = 'Day \n8 \nChallenge';
 const kDay9Challenge = 'Day \n9 \nChallenge';
 const kDay10Challenge = 'Day \n10 \nChallenge';
+
+// day 2 constants
+const kDummyProfileImageUrl = 'https://tricksmaze.org/wp-content/uploads/2017/04/Stylish-Girls-Profile-Pictures-1.jpg';

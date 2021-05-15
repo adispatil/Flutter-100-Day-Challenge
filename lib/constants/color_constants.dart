@@ -18,3 +18,7 @@ const BTCDARK = Color(0xFFFF9C21);
 const BOXSHADOWCOLOR = Color(0xFFE6E9EE);
 const DROP = Color(0xFFEE225D);
 const RISE = Color(0xFF18AF64);
+
+//**** Day 2 Challenge color
+const Color kTextColorSkyBlue = Color(0xFF6EBEE9);
+const Color kIntermediateBackground = Color(0xFFD9E9F6);

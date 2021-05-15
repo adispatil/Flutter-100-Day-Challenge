@@ -24,12 +24,16 @@ class _BottomNavigationWalletScreenState
 
     return Scaffold(
       backgroundColor: MyColor.kBackgroundParent,
+      drawer: Drawer(
+        child: Text('hello'),
+      ),
+
       body: SafeArea(
         child: Column(
           children: <Widget>[
             /// custom app bar
             CustomAppBar(
-              leftIcon: FontAwesomeIcons.bars,
+              leftIcon: Icons.sort_rounded,
               rightIcon: FontAwesomeIcons.wallet,
               screenLabel: 'Wallet',
             ),
