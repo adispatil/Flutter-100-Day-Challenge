@@ -4,6 +4,12 @@ import 'package:flutter_challange/screens/day_1/day_1_screen2.dart';
 import 'package:flutter_challange/screens/day_2/screen_1.dart';
 import 'package:flutter_challange/screens/day_2/screen_2.dart';
 import 'package:flutter_challange/screens/day_2/screen_3.dart';
+import 'package:flutter_challange/screens/day_3/screen_1.dart';
+import 'package:flutter_challange/screens/day_3/screen_2.dart';
+import 'package:flutter_challange/screens/day_3/screen_3.dart';
+import 'package:flutter_challange/screens/day_4/screen_1.dart';
+import 'package:flutter_challange/screens/day_4/screen_2.dart';
+import 'package:flutter_challange/screens/day_4/screen_3.dart';
 import 'package:flutter_challange/screens/home_screen.dart';
 import 'package:flutter/services.dart';
 
@@ -37,6 +43,12 @@ class MyApp extends StatelessWidget {
           Day2HomeScreen.id: (context) => Day2HomeScreen(),
           Day2Screen2.id: (context) => Day2Screen2(),
           Day2Screen3.id: (context) => Day2Screen3(),
+          Day3Screen1.id: (context) => Day3Screen1(),
+          Day3Screen2.id: (context) => Day3Screen2(),
+          Day3Screen3.id: (context) => Day3Screen3(),
+          Day4Screen1.id: (context) => Day4Screen1(),
+          Day4Screen2.id: (context) => Day4Screen2(),
+          Day4Screen3.id: (context) => Day4Screen3(),
         }
     );
   }
