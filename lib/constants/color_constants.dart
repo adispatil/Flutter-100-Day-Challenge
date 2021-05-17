@@ -22,3 +22,15 @@ const RISE = Color(0xFF18AF64);
 //**** Day 2 Challenge color
 const Color kTextColorSkyBlue = Color(0xFF6EBEE9);
 const Color kIntermediateBackground = Color(0xFFD9E9F6);
+
+
+//**** Day 3 challenge color
+class Day3AppColor {
+  static const Color lightBlue = Color(0xff6BC5E8);
+  static const Color blue = Color(0xff3A9EC1);
+  static const Color darkBlue = Color(0xff0E4356);
+
+  static const Color lightGrey = Color(0xffEAE7E5);
+  static const Color grey = Color(0xffBDBEC1);
+  static const Color black = Color(0xff353535);
+}
